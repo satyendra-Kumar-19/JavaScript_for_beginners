@@ -71,7 +71,7 @@ h1 {
 }
 
 #msg {
-    background-color: chartreuse;
+    background-color: rgb(123, 235, 243);
     color: black;
     font-size: 3rem;
     display: inline;
@@ -79,3 +79,7 @@ h1 {
     border-radius: 10px;
 
 }
+
+/* .win-msg {
+    font-size: 30px;
+} */
