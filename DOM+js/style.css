@@ -1,0 +1,28 @@
+/* body {
+    background-color: blue;
+}
+
+h1 {
+    color: azure;
+    background-color: brown;
+}
+
+p {
+    color: blueviolet;
+    background-color: rgb(2, 48, 49);
+} */
+
+
+#box {
+    height :400px;
+    width: 250px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(235, 252, 1);
+    margin: 2px;
+}
+
+
+.sat {
+    background-color:  yellow;
+}

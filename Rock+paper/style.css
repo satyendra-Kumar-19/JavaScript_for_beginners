@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #003049;
+    color: #90e0ef;
+    height: 3rem;
+
+    font-weight: bold;
+    line-height: 3rem;
+    margin-top: 10 px;
+    margin-bottom: 20px;
+}
+
+.choices {
+    display: flex;
+    /* Make it a flex container */
+    justify-content: center;
+    /* Center the .choice div horizontally */
+    align-items: center;
+    /* Center vertically if needed */
+}
+
+.choice {
+    height: 200px;
+    width: 800px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    /* Center buttons inside */
+    align-items: center;
+    margin-left: 40px;
+}
+
+.img:hover {
+    cursor: pointer;
+    background-color: #4e9cf5;
+}
+
+.img {
+    border-radius: 50%;
+    font-size: 150px;
+    /* Emoji size */
+    margin: 20px;
+    /* Space between buttons */
+}
+
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    /* Center buttons inside */
+    align-items: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    gap: 6rem;
+}
+
+#com,
+#user {
+    font-size: 4rem;
+    gap: 30px;
+}
+
+.msg-container {
+    margin-top: 4rem;
+
+}
+
+#msg {
+    background-color: chartreuse;
+    color: black;
+    font-size: 3rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 10px;
+
+}

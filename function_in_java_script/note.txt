@@ -1,0 +1,61 @@
+        ### Functions in JavaScript ###
+function functionName() {
+    // code
+}
+A function is simply a reusable block of code that performs a specific task.
+
+Parameters
+Parameters are variables that receive data when a function is called.
+Arguments
+Arguments are the actual values passed to the function.
+
+## Most Important Concepts to Master :-
+1. Function Declaration
+2. Parameters
+3. Arguments
+4. return
+5. Function Expression
+6. Arrow Functions
+7. Scope
+8. Default Parameters
+
+
+
+
+    # Quick Summary #
+// Function Declaration
+function greet(name) {
+    return "Hello " + name;
+}
+// Function Call
+greet("Satu");
+// Function Expression
+const greet2 = function(name) {
+    return "Hello " + name;
+};
+// Arrow Function
+const greet3 = (name) => {
+    return "Hello " + name;
+};
+// Short Arrow Function
+const greet4 = name => "Hello " + name;
+
+
+1. What is forEach()?
+forEach() is an array method used to execute a function once for every element in an array.
+
+array.forEach(function(currentValue, index, array) {
+    // code
+});   // or 
+array.forEach((currentValue, index, array) => {
+    // code
+});
+
+
+First Parameter: Current Value
+The first parameter always represents the current element.
+Second Parameter: Index
+Each element has an index.
+Third Parameter: Original Array
+The third parameter gives access to the entire array.
+

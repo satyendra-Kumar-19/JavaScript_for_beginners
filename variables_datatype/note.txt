@@ -1,0 +1,17 @@
+var → old way, function-scoped.
+let → modern, block-scoped, allows reassignment.
+const → block-scoped, cannot be reassigned.
+
+
+
+| **Type**   | **Example**                         | **Description**`                         |
+| ---        | ---                                 |             ---                          |
+| **Number** | let x = 42;                         | Numeric values (integers, floats).       |   
+| **BigInt** | let big = 1234567890123456789n;     | Very large integers beyond Number limit. |
+| **String** | let str = "Hello";                  | Text enclosed in quotes.                 |
+| **Boolean**| let flag = true;                    | True/false values.                       |
+|**Undefined*| let x;                              | Declared but not assigned.               |
+| **Null**   | let y = null;                       | Intentional “no value.”                  |
+| **Symbol** | let id = Symbol("id");              | Unique identifiers.                      |
+| **Object** | let person = {name:"John"};         | Collections of key-value pairs.          |
+

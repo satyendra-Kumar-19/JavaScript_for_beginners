@@ -1,0 +1,136 @@
+Types of Loops in JavaScript
+
+    # for
+    # while
+    # do...while
+    # for...of
+    # for...in
+
+
+
+
+1st is for loop:
+for(initialization; condition; update) {
+    // code
+}
+
+2nd is while loop .
+while(condition) {
+    // code
+}
+
+3rd is do ... while loop 
+do {
+   // code
+}
+while(condition);
+
+
+4th is for...of Loop
+for (let value of iterable) {
+    // code
+}
+
+
+5th is for...in Loop
+for (let key in object) {
+    // code
+}
+
+
+#  Methods of Strings  #
+// 1. length → Number of characters
+"Hello".length
+// Output: 5
+
+// 2. toUpperCase() → Convert to uppercase
+"hello".toUpperCase()
+// Output: "HELLO"
+
+// 3. toLowerCase() → Convert to lowercase
+"HELLO".toLowerCase()
+// Output: "hello"
+
+// 4. trim() → Remove spaces from both ends
+"  Hello  ".trim()
+// Output: "Hello"
+
+// 5. slice(start, end) → Extract part of string
+"JavaScript".slice(0, 4)
+// Output: "Java"
+
+// 6. substring(start, end) → Extract part of string
+"JavaScript".substring(0, 4)
+// Output: "Java"
+
+// 7. replace(old, new) → Replace first occurrence
+"I like Java".replace("Java", "Python")
+// Output: "I like Python"
+
+// 8. replaceAll(old, new) → Replace all occurrences
+"cat dog cat".replaceAll("cat", "lion")
+// Output: "lion dog lion"
+
+// 9. includes(value) → Check if string contains value
+"JavaScript".includes("Script")
+// Output: true
+
+// 10. startsWith(value) → Check beginning of string
+"JavaScript".startsWith("Java")
+// Output: true
+
+// 11. endsWith(value) → Check end of string
+"JavaScript".endsWith("Script")
+// Output: true
+
+// 12. indexOf(value) → First occurrence index
+"Hello World".indexOf("o")
+// Output: 4
+
+// 13. lastIndexOf(value) → Last occurrence index
+"banana".lastIndexOf("a")
+// Output: 5
+
+// 14. charAt(index) → Character at index
+"Hello".charAt(1)
+// Output: "e"
+
+// 15. concat() → Join strings
+"Hello".concat(" ", "World")
+// Output: "Hello World"
+
+// 16. split(separator) → Convert string to array
+"apple,banana,mango".split(",")
+// Output: ["apple", "banana", "mango"]
+
+// 17. repeat(n) → Repeat string n times
+"Hi ".repeat(3)
+// Output: "Hi Hi Hi "
+
+// 18. padStart(length, char) → Add chars at beginning
+"5".padStart(3, "0")
+// Output: "005"
+
+// 19. padEnd(length, char) → Add chars at end
+"5".padEnd(3, "0")
+// Output: "500"
+
+length         → Count characters
+toUpperCase()  → UPPERCASE
+toLowerCase()  → lowercase
+trim()         → Remove outer spaces
+slice()        → Extract part
+substring()    → Extract part
+replace()      → Replace first match
+replaceAll()   → Replace all matches
+includes()     → Contains?
+startsWith()   → Starts with?
+endsWith()     → Ends with?
+indexOf()      → First position
+lastIndexOf()  → Last position
+charAt()       → Character at index
+concat()       → Join strings
+split()        → String → Array
+repeat()       → Repeat text
+padStart()     → Add chars at start
+padEnd()       → Add chars at end

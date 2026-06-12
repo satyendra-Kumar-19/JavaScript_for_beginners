@@ -1,0 +1,189 @@
+// ==========================
+// JavaScript Array Methods
+// ==========================
+
+// push()
+// Adds element(s) to the end.
+arr.push(value);
+
+// pop()
+// Removes and returns the last element.
+arr.pop();
+
+// unshift()
+// Adds element(s) to the beginning.
+arr.unshift(value);
+
+// shift()
+// Removes and returns the first element.
+arr.shift();
+
+// forEach()
+// Executes a function for each element.
+// Returns undefined.
+arr.forEach((value, index) => {});
+
+// map()
+// Creates a new array by transforming each element.
+arr.map((value) => newValue);
+
+// filter()
+// Creates a new array with elements that pass a condition.
+arr.filter((value) => condition);
+
+// reduce()
+// Reduces array to a single value.
+arr.reduce((acc, value) => result, initialValue);
+
+// find()
+// Returns the first matching element.
+arr.find((value) => condition);
+
+// findIndex()
+// Returns index of first matching element.
+arr.findIndex((value) => condition);
+
+// includes()
+// Checks if a value exists in the array.
+arr.includes(value);
+
+// indexOf()
+// Returns first index of a value (-1 if not found).
+arr.indexOf(value);
+
+// sort()
+// Sorts the array (modifies original array).
+arr.sort((a, b) => a - b);
+
+// reverse()
+// Reverses the array (modifies original array).
+arr.reverse();
+
+// slice()
+// Returns a copy of a portion of the array.
+// Original array remains unchanged.
+arr.slice(start, end);
+
+// splice()
+// Adds, removes, or replaces elements.
+// Modifies original array.
+arr.splice(start, deleteCount, item1, item2);
+
+// join()
+// Converts array into a string.
+arr.join(separator);
+
+// toString()
+// Converts array into a comma-separated string.
+arr.toString();
+
+// concat()
+// Merges arrays and returns a new array.
+arr.concat(arr2);
+
+// flat()
+// Flattens nested arrays.
+arr.flat(depth);
+
+// every()
+// Returns true if ALL elements satisfy a condition.
+arr.every((value) => condition);
+
+// some()
+// Returns true if AT LEAST ONE element satisfies a condition.
+arr.some((value) => condition);
+
+// fill()
+// Fills array with a specified value.
+arr.fill(value, start, end);
+
+// copyWithin()
+// Copies part of an array to another position.
+arr.copyWithin(target, start, end);
+
+// at()
+// Returns element at a given index.
+// Supports negative indexing.
+arr.at(index);
+
+// entries()
+// Returns iterator of [index, value] pairs.
+arr.entries();
+
+// keys()
+// Returns iterator of indexes.
+arr.keys();
+
+// values()
+// Returns iterator of values.
+arr.values();
+
+// Array.from()
+// Creates an array from iterable or array-like object.
+Array.from(iterable);
+
+// Array.isArray()
+// Checks whether a value is an array.
+Array.isArray(value);
+
+// flatMap()
+// map() + flat(1) combined.
+arr.flatMap((value) => newValue);
+
+// toReversed()
+// Returns a reversed copy without modifying original.
+arr.toReversed();
+
+// toSorted()
+// Returns a sorted copy without modifying original.
+arr.toSorted((a, b) => a - b);
+
+// toSpliced()
+// Returns modified copy without changing original.
+arr.toSpliced(start, deleteCount, items);
+
+// with()
+// Returns a copy with one element replaced.
+arr.with(index, newValue);
+
+
+
+
+
+
+Add/Remove:
+push, pop, shift, unshift, splice
+
+Looping:
+forEach
+
+Transform:
+map, flatMap
+
+Filter/Search:
+filter, find, findIndex, includes, indexOf
+
+Check Conditions:
+every, some
+
+Aggregation:
+reduce
+
+Copy/Extract:
+slice
+
+Sort/Reverse:
+sort, reverse, toSorted, toReversed
+
+Convert:
+join, toString, Array.from
+
+Merge:
+concat
+
+Nested Arrays:
+flat
+
+Utility:
+fill, copyWithin, at, entries, keys, values,
+Array.isArray, toSpliced, with

@@ -1,0 +1,38 @@
+// Introduction to DOM in JavaScript
+
+/*
+DOM stands for Document Object Model.
+It is a programming interface for web documents.
+The DOM represents the structure of a webpage as a tree of objects.
+Each element (like <p>, <div>, <h1>) is a node in this tree.
+
+JavaScript can use the DOM to:
+1. Access elements (getElementById, querySelector).
+2. Change content or styles dynamically.
+3. Add or remove elements.
+4. Handle events (like clicks, keypresses).
+
+In short: The DOM connects JavaScript with HTML & CSS,
+allowing developers to make webpages interactive and dynamic.
+*/
+
+// Example:
+document.getElementById("demo").innerHTML = "Hello DOM!";
+
+
+
+
+getElementById()
+→ Select one element by ID
+
+getElementsByClassName()
+→ Select all elements with a class
+
+getElementsByTagName()
+→ Select all elements with a tag
+
+querySelector()
+→ First matching element
+
+querySelectorAll()
+→ All matching elements

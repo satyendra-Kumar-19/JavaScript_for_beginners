@@ -1,0 +1,57 @@
+        #       Arrays      #
+In JavaScript, an array is a special variable used to store multiple values in a single variable.
+
+# creating an array 
+to create an array we just give the value to a variable as list inside a square brackets .
+arrays are mutable  in JavaScript
+Arrays are objects in JavaScript.
+Arrays can store different data types.
+JavaScript arrays are dynamic (size can change).
+
+
+
+        ### Array Methods ###
+
+push()       → Add at end
+pop()        → Remove from end
+unshift()    → Add at beginning
+shift()      → Remove from beginning
+length       → Count elements
+indexOf()    → First index
+lastIndexOf()-> Last index
+includes()   → Contains?
+
+concat()     → Merge arrays
+join()       → Array → String
+toString()   → Array → String
+
+reverse()    → Reverse array
+sort()       → Sort array
+
+slice()      → Copy portion
+splice()     → Add/Remove elements
+
+at()         → Access by index
+fill()       → Fill values
+flat()       → Flatten nested arrays
+
+Array.isArray() → Check array
+
+forEach()    → Loop through array
+map()        → Transform
+filter()     → Filter items
+find()       → First matching item
+findIndex()  → Index of matching item
+some()       → Any match?
+every()      → All match?
+reduce()     → Single value result
+
+
+    Most Important Methods
+push, pop, shift, unshift,
+slice, splice,
+map, filter, reduce,
+find, findIndex,
+some, every,
+sort
+
